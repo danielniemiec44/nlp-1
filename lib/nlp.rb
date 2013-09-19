@@ -30,6 +30,6 @@ require "tagger/lemmatizer"
 
 require "text_statistics"
 
-require 'jcode'
+require 'jcode' if RUBY_VERSION < '1.9'
 $KCODE = "UTF8"
 
